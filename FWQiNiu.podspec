@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FWQiNiu"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "FWQiNiu contains many libs  for  developers"
   s.description  = <<-DESC
   This description is used to generate tags and improve search results.FWQiNiu contains many libs  for  developers
@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
                  'CoreGraphics'
   s.libraries = 'z'
   s.dependency 'HappyDNS'
-  #s.vendored_libraries   = 'libFWQiNiu.a'
+  s.vendored_libraries   = 'libFWQiNiu.a'
 
 end
